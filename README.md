@@ -6,7 +6,7 @@ A minimal Übersicht widget that shows live countdowns to submission deadlines f
 - ICML
 - NeurIPS
 
-It uses official timezones and updates once a week via data from [Hugging Face AI Deadlines](https://github.com/huggingface/ai-deadlines).
+It uses official timezones and updates once a week via data from [CCF Deadlines](https://github.com/ccfddl/ccf-deadlines/tree/main).
 
 ---
 
@@ -28,16 +28,16 @@ You can replace the default conferences (`ICLR`, `ICML`, `NeurIPS`) with others 
 - **CVPR**
 - **EMNLP**
 - **COLT**
-- Any other from the full list on [Hugging Face AI Deadlines](https://github.com/huggingface/ai-deadlines/blob/main/src/data/conferences.yml)
+- Any other from the full list on [CCF Deadlines](https://github.com/ccfddl/ccf-deadlines/tree/main/conference)
 
 ### 🛠 How to change:
 
 1. Open `ml_fetch.sh`
 2. Find this line:
    ```bash
-   select(.title == "ICLR" or .title == "ICML" or .title == "NeurIPS")
+   CONFS=("iclr" "icml" "nips")
 	```
-3. Replace or add the conference names inside the select() filter with your preferred ones (e.g., "ACL", "CVPR").
+3. Replace or add the conference names inside the select() filter with your preferred ones (e.g., "acl", "cvpr").
 4. Save the file, delete the cached data file `ml_data.json` and refresh the widget.
 ---
 
@@ -66,7 +66,7 @@ Click on **Übersicht → Refresh All Widgets** in the menu bar.
 
 ## 🧠 Data Source
 
-* [Hugging Face AI Deadlines](https://github.com/huggingface/ai-deadlines)
+* [CCF Deadlines](https://github.com/ccfddl/ccf-deadlines/tree/main)
 
 ---
 

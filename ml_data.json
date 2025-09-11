@@ -1,1 +1,29 @@
-[{"name":"ICLR","year":2025,"deadline":"2024-10-01 23:59:59","date":"April 24-28, 2025","place":"Singapore EXPO - 1 Expo Drive, Singapore","timezone":"UTC-12","source":"ML"},{"name":"ICML","year":2025,"deadline":"2025-01-30 23:59:59","date":"July 11-19, 2025","place":"Vancouver Convention Center","timezone":"UTC-12","source":"ML"},{"name":"NeurIPS","year":2025,"deadline":"2025-05-16 23:59:59","date":"December 9-15, 2025","place":"San Diego Convention Center, San Diego, USA","timezone":"UTC-8","source":"ML"}]
+[
+  {
+    "name": "ICLR",
+    "year": 2026,
+    "deadline": "2025-09-24 23:59:59",
+    "date": "May 01-05, 2026",
+    "place": "Brazil",
+    "timezone": "AoE",
+    "source": "ML"
+  },
+  {
+    "name": "ICML",
+    "year": 2025,
+    "deadline": "2025-01-30 23:59:59",
+    "date": "July 11-19, 2025",
+    "place": "Vancouver Convention Center, Vancouver, Canada",
+    "timezone": "UTC-12",
+    "source": "ML"
+  },
+  {
+    "name": "NeurIPS",
+    "year": 2025,
+    "deadline": "2025-05-15 23:59:59",
+    "date": "December 2-7, 2025",
+    "place": "San Diego Convention Center, USA",
+    "timezone": "AoE",
+    "source": "ML"
+  }
+]
